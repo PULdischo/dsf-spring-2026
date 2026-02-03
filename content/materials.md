@@ -32,8 +32,8 @@ You will be provided with research materials so that we can collaborate and enga
 
 **materials:**
 
-- [Vrysaki map](https://collections.visualresources.princeton.edu/Detail/objects/49422)
-- [Messinesi photographs](https://collections.visualresources.princeton.edu/Detail/collections/155)
-- [Photograph metadata](https://docs.google.com/spreadsheets/d/1vz_CAGkI6uHUDs2A5U6auAzxxVls_ulbuRFXydKnxeM/edit?usp=sharing)
+- [Messinesi's Vrysaki map](https://drive.google.com/file/d/1Bh7Ce8NsIrNY8noPEelaaDpmlvPqzZ7t/view?usp=sharing)
+- [Messinesi photographs](https://collections.visualresources.princeton.edu/Detail/collections/SR-000072)
+- [Photograph metadata](https://docs.google.com/spreadsheets/d/1IrL6s7HLRZyPgi3KbdlECVYfE2YcMg9cPdNkvKRopSU/edit?usp=sharing)
 
-This hands-on workshop uses objects from the [Messinesi Photographs Collection](https://collections.visualresources.princeton.edu/Detail/collections/155) which is part of the [Homer A. Thompson Collection](https://collections.visualresources.princeton.edu/Detail/collections/58) house in [Visual Resources Collections](https://collections.visualresources.princeton.edu/) of Princeton University's Department of Art and Archaeology.
+This hands-on workshop uses objects from the [Messinesi Photographs Collection](https://collections.visualresources.princeton.edu/Detail/collections/SR-000072) which is part of the [Homer A. Thompson Collection](https://collections.visualresources.princeton.edu/Detail/collections/C-000008) house in [Visual Resources Collections](https://collections.visualresources.princeton.edu/) of Princeton University's Department of Art and Archaeology.
