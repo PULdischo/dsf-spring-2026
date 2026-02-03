@@ -115,7 +115,7 @@ Our HTML body contains:
 - a division that establishes where the map is on the page: `<div id="map"></div>`
 - leaflet functions that set the parameters of the map, such as:
     - `L.map()`: establish map and basic parameters like center and zoom level
-    - `control.Layer`: creates switch that then allows you to switch between layers 
+    - `L.control.layers`: creates switch that then allows you to switch between layers 
     - `L.tileLayer()`: brings in raster layers (pixel based images) like a default basemap or your georeferenced map.
     - `L.marker()`: create markers on your map
 
@@ -186,7 +186,7 @@ We want our popup to include information about our images and the image itself. 
 2. Add the code below within the parenthesis of `.bindPopup()`. This will provide additional information and call on our metadata to populate our popup with descriptive information and the corresponding image:
 
     ```
-    `"<b>Item Number:</b>" + row.Title + "</br>" + "<b>Section:</b>" + row.Section + "</br>" + "<b>Description:</b>" + row.Description + "</br>" + "<b>Lot:</b>" + row.Lot + "</br>" + row.Photo`
+    "<b>Item Number:</b>" + row.Title + "</br>" + "<b>Section:</b>" + row.Section + "</br>" + "<b>Description:</b>" + row.Description + "</br>" + "<b>Lot:</b>" + row.Lot + "</br>" + row.Photo
     ```
 3. This code is saying look in `data.csv`, then look at each `row`. As you move along each `row` find the value of any column called on by `.`. We're calling on the columns `Title`, `Section`, `Description`, `Lot`, and `Photo` and asking for each individual value to be placed in the pop up associated with the coordinates in our csv.
 

@@ -77,38 +77,6 @@ Raster data is often the map you are putting things on.
 
 **Our use for this course:** We will create vector data that demonstrates where our research objects are and what attributes about our objects we want to highlight or make easier to interpret.
 
-### Data Structures and their File Types
-
-To create digital maps, you may need to familiarize yourself with data structures and file types that you do not use regularly or have not encountered before. Throughout this series we will engage with three main structures:
-
-- *tabular*: Tabular data is probably what you are most comfortable with. If you have ever worked with a spreadsheet, you have worked with tabular data.
-- *key-value*: Linked data items that establish constants (the key) and variables (the value).
-- *tree-like*: Nested data that branches out from nodes to maintain hierarchical relationships of data. Think of how a family tree begins and then branches out each generation.
-
-We will also work with a number of file types: 
-
-- *.csv*: Comma-Separated Values (tabular)
-- *.json*: JavaScript Object Notation (key-value)
-- *.kml*: Keyhole Markup Language (tree-like)
-
-#### Another Type: Shapefile
-
-Digital mapping may require more complex file types that are actually a series of files. The initial file is related to additional files so that a mapping tool can read and properly represent the included data. One example if a shapefile:
-
-- .shp: shapefile contains vector data (feature geometry) and requires at least two other files: .shx (index of feature geometry) and .dbf (attribute information)
-
-There are other file types that can be used in digital mapping projects and we will come across them. It particularly important to understand which file types are useable my multiple platforms and tools, and which file types are proprietary (can only be used by specific platforms). This will have implications for the sustainability of your project.
-
-### Early Mapping Platform Considerations
-
-Each platform or tool will have specific requirements that may or may not limit the future direction of your project.
-
-Reading documentation is essential as your prepare your data:
-
-- What are its file requirements?
-- Do we need to change our data structure?
-- Do we need to add anything to our dataset?
-
 ## Getting to Know Your Text Editor
 
 A text editor will allow us to more easily explore the many file types we will need to build a successful project.
@@ -124,23 +92,15 @@ The following [VS Code extensions](https://code.visualstudio.com/docs/configure/
 - [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 - [Edit CSV](https://marketplace.visualstudio.com/items?itemName=janisdd.vscode-edit-csv)
-- [Code Spell Checker(https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)]
+- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+
+### Viewing a CSV in its Natural Habitat
+
+CSV (comma-separated values) files are a tabular data structure much like an Excel workbook or Google sheet. The important difference is that it is a plain text file and is often a file type that is compatible with mapping platforms. Download [our metadata](https://docs.google.com/spreadsheets/d/1IrL6s7HLRZyPgi3KbdlECVYfE2YcMg9cPdNkvKRopSU/edit?usp=sharing) so we can view the file in VS Code and begin to wade into the world of plain text.
 
 ## Viewing your Research as Data
 
 While some may be comfortable viewing their research as data, others may not have been trained to think this way. For digital mapping, its helpful to think of your research in terms of types of data. This will encourage you to ask different and additional questions of your research.
-
-### Provided Research Materials
-
-If you do not have your own research data to work with for this series, you can follow along and work with the collection I will be using during our demonstrations. At times, you may even want to work with these materials to complete some of our hands-on tasks.
-
-This hands-on workshop uses objects from the [Messinesi Photographs Collection](https://collections.visualresources.princeton.edu/Detail/collections/155) which is part of the [Homer A. Thompson Collection](https://collections.visualresources.princeton.edu/Detail/collections/58) house in [Visual Resources Collections](https://collections.visualresources.princeton.edu/) of Princeton University's Department of Art and Archaeology.
-
-**materials:**
-
-- [Vrysaki map](https://collections.visualresources.princeton.edu/Detail/objects/49422)
-- [Messinesi photographs](https://collections.visualresources.princeton.edu/Detail/collections/155)
-- [Photograph metadata](https://docs.google.com/spreadsheets/d/1vz_CAGkI6uHUDs2A5U6auAzxxVls_ulbuRFXydKnxeM/edit?usp=sharing)
 
 ### Questions to Ask About your Data
 
@@ -149,15 +109,47 @@ This hands-on workshop uses objects from the [Messinesi Photographs Collection](
 - What is the most important data you want to show?
 - How do you want your data to relate to each other?
 
-### Questions to Ask About Visualization
+### Structuring your Data
 
-- How will others interact/engage with your project?
-- How are others going to interpret your visualizations/maps?
-- Are there any maps or visualizations out there you like?
-- Are there any you don't like?
+You can think of structuring your data as the process of organizing and gathering additional data. This is important for digital mapping because:
+
+- It makes it possible/easier for mapping platforms to read and represent your data.
+- It makes your data flexible and transferable.
+- You can provide additional meaning that complements your data, like labels and other metadata.
+- You will think critically about your data and what it does and does not say.
+
+Here are some questions to help you think about your data and what you need to do:
+
+- What do you want your map to display?
+- What columns do you need to organize and add data?
+- What data will be visible to the end user?
+- Is your data consistent?
+- How do you make your data mappable?
+
+### Provided Research Materials
+
+If you do not have your own research data to work with for this series, you can follow along and work with the collection I will be using during our demonstrations. At times, you may even want to work with these materials to complete some of our hands-on tasks.
+
+This hands-on workshop uses objects from the [Messinesi Photographs Collection](https://collections.visualresources.princeton.edu/Detail/collections/SR-000072) which is part of the [Homer A. Thompson Collection](https://collections.visualresources.princeton.edu/Detail/collections/C-000008) house in [Visual Resources Collections](https://collections.visualresources.princeton.edu/) of Princeton University's Department of Art and Archaeology.
+
+- [Messinesi's Vrysaki map](https://drive.google.com/file/d/1Bh7Ce8NsIrNY8noPEelaaDpmlvPqzZ7t/view?usp=sharing)
+- [Messinesi photographs](https://collections.visualresources.princeton.edu/Detail/collections/SR-000072)
+- [Photograph metadata](https://docs.google.com/spreadsheets/d/1IrL6s7HLRZyPgi3KbdlECVYfE2YcMg9cPdNkvKRopSU/edit?usp=sharing)
+
+To reconstruct Vrysaki, we must associate our current research data with spatial data. We will work through the phases, methods, and tools of a mapping project throughout the rest of our sessions. Even though this process will be presented in a linear order, you should always iterate over common questions and concerns as you develop and improve your project.
+
+## Transforming Our Data
+
+Preparing your data for spatial visualization requires you to review, revise, and augment your data. At the very least, you will need to add coordinates so that a mapping platform can read your data and place it on a map.
+
+### OpenRefine
+
+[OpenRefine](https://openrefine.org/download) is a powerful free, open source tool for working with messy data. It helps minimize human error as you edit your data. It also allows you to explore patterns that may be challenging to find without the assistance of the computer. 
+
+The remainder of today's session will make us comfortable with the basic functions of OpenRefine.
 
 ## Next Session
 
-If you haven't already, download [OpenRefine] (https://openrefine.org/download) and ensure you have set up a [GitHub](https://github.com/) and downloaded the [GitHub Desktop client](https://github.com/apps/desktop).
-
 Identify what spatial data is missing from our dataset and/or your project.
+
+If you haven't already, ensure you have set up a [GitHub](https://github.com/) and try downloading the [GitHub Desktop client](https://github.com/apps/desktop). If you have trouble, we will address this at another session

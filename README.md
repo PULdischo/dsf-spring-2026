@@ -1,10 +1,10 @@
-# Digital Scholarship Foundations Static Website Series
+# Digital Scholarship Foundations
 
 ## Workshop Overview
 
 Digital Scholarship Foundations is a series of library workshops led by [Digital Scholarship Services (DiScho)](https://library.princeton.edu/services/digital-scholarship).
 
-Our fall program is centered around digital mapping to develop fundamental skills necessary for a variety of digital projects. Participants will attend four workshops where they will learn about version control, data wrangling, coding templates, web publishing, and more as they transform research into spatial data and build their own interactive map.
+Our spring 2026 program is centered around digital mapping to develop fundamental skills necessary for a variety of digital projects. Participants will attend four workshops where they will learn about version control, data wrangling, coding templates, web publishing, and more as they transform research into spatial data and build their own interactive map.
 
 ## Digital Scholarship at PUL
 

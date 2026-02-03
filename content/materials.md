@@ -24,7 +24,7 @@ The following [VS Code extensions](https://code.visualstudio.com/docs/configure/
 
 `MapWarper:` [MapWarper](https://mapwarper.net/) is a free to use, open-source map warper / map georectifier, and image georeferencer tool for individuals and small groups.
 
-`OpenRefine:` [OpenRefine] (https://openrefine.org/download) is a powerful free, open source tool for working with messy data.
+`OpenRefine:` [OpenRefine](https://openrefine.org/download) is a powerful free, open source tool for working with messy data.
 
 ## Research Materials
 
