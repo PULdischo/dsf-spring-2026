@@ -86,7 +86,7 @@ Always check to see if your map has already been georeferenced. This could save 
 
 #### Step 3: Upload Your Map
 
-Add your map to the MapWarper site. But sure to include as much identifying metadata as possible. This will both give proper credit to the origins of your map and it will allow others to find it and potentially use it in their own research.
+Add your map to the MapWarper site. Make sure to create a new title for your file and be sure to include as much identifying metadata as possible. This will both give proper credit to the origins of your map and it will allow others to find it and potentially use it in their own research.
 
 #### Step 4: Mask the Map (optional)
 
@@ -187,4 +187,4 @@ While we are doing this manually, you can perform this programmatically by writi
 1. If you have not already, create a [GitHub](https://github.com/) account.
 2. Complete addition of coordinates to your dataset.
 3. Complete further wrangling of your data to ensure it will be useable in a mapping platform.
-4. Attend office hours if you would like. These will be held September 29 and October 1 from 10:30am-noon. This is a great opportunity to bring questions or co-work on your project with other participants.
+4. Attend office hours if you would like. These will be held February 23 and 25 from 10:30am-noon in the Curiosity Studio in [the Commons Library](https://library.princeton.edu/services/commons-library). This is a great opportunity to bring questions or co-work on your project with other participants.
