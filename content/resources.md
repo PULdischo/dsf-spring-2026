@@ -11,7 +11,7 @@ Week 1: An Introduction to Mapping and Spatial Data: [Google Slides](https://doc
 
 Week 2: Working with Spatial Data: [Google Slides](https://docs.google.com/presentation/d/1RlHp5BzciH4pMV1QWv-DLIofnudcuvvLxRH_-_db8YY/edit?usp=sharing) or [PDF](https://github.com/PULdischo/dsf-spring-2026/blob/main/content/slideshows/week-2-spatial-data.pdf)
 
-Week 3: Prototyping and Version Control:
+Week 3: Prototyping and Version Control: [Google Slides](https://docs.google.com/presentation/d/1LESeyxOeEzJXN9-zugUaeJOwNMEaiQlTcUtKBT2yjqA/edit?usp=sharing) or [PDF]([PDF](https://github.com/PULdischo/dsf-spring-2026/blob/main/content/slideshows/week-3-prototyping.pdf))
 
 Week 4: Code Templates and Customization:
 
