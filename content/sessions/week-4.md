@@ -7,61 +7,10 @@ topics: Customization; leaflet; web publishing
 
 ## Learning Objectives
 
-Learn how to fork and clone repositories with GitHub.
-Read a code template.
-Explore building blocks of the web.
-Develop code locally using JavaScript and Leaflet.js.
-Generate a basic website locally and/or publicly using Jekyll.
-
-## Cloning
-
-Cloning downloads a complete copy of the code and history from your GitHub repository and stores it in a folder on your local computer. This clone of the repository is automatically configured to be connected to the version on GitHub.
-
-Cloning allows you to work locally to help you work effectively and efficiently.
-
-We'll first model managing the remote and local relationship with GitHub Desktop. We will eventually use VS Code to manage the relationship between our remote and local repositories.
-
-### Step 1: Install GitHub Desktop
-
-1. Navigate to [GitHub Desktop](https://github.com/apps/desktop) and download the appropriate version of GitHub Desktop for your operating system. 
-2. Follow the prompts to complete the installation. For more information, see [Installing GitHub Desktop](https://docs.github.com/en/desktop/installing-and-authenticating-to-github-desktop/setting-up-github-desktop).
-    1. Sign in to your Github.com account via the GitHub Desktop prompt.
-    2. Select `authorize` after reviewing access prompt.
-    3. When viewing `configure git` prompt, select `use my GitHub account name and email address`.
-    4. Click `finish`
-3. Arrive at `Let's get started` prompt.
-
-### Step 2: Configure a Default Text Editor
-
-1. In the menu bar, select `GitHub Desktop`, then click `Settings`.
-2. In the Settings window, select `Integrations`.
-3. Under "External Editor", use the dropdown menu to select Visual Studio Code to to set as your default text editor.
-4. Click `Save`.
-
-### Step 3: Clone Your Repository Using GitHub Desktop
-
-1. Using your browser, go to your GitHub dashboard or repository list and find the repository we created in the previous module. If you followed along, it will be titled `dsf-maps`.
-2. On your repository landing page, find the green button titled `< > Code` and click to open a drop down menu.
-3. Under the `local` tab, select `Open with GitHub Desktop`.
-4. GitHub Desktop will open and show your respository url and a suggested local path. If these look accurate and/or are acceptable, click `clone`. 
-
-### Step 4: Explore GitHub Desktop and its Functionality
-
-1. Explore navigation bar:
-    - Current repository dropdown menu
-    - Current branch dropdown menu
-    - Suggested action:
-        - Fetch
-        - Pull
-        - Push
-2. Explore commit viewer:
-    - Changes
-    - History
-    - Commit message
-3. Explore main viewer:
-    - Open the repository in your external editor
-    - View the files of your repository in Finder/Windows Explorer
-    - Open the repository page on GitHub in your browser
+- Read a code template.
+- Explore building blocks of the web.
+- Develop code locally using JavaScript and Leaflet.js.
+- Generate a basic website locally and/or publicly using Jekyll.
 
 ## Leaflet, Code Templates, and Local Development
 
@@ -188,7 +137,7 @@ We want our popup to include information about our images and the image itself. 
     ```
     "<b>Item Number:</b>" + row.Title + "</br>" + "<b>Section:</b>" + row.Section + "</br>" + "<b>Description:</b>" + row.Description + "</br>" + "<b>Lot:</b>" + row.Lot + "</br>" + row.Photo
     ```
-3. This code is saying look in `data.csv`, then look at each `row`. As you move along each `row` find the value of any column called on by `.`. We're calling on the columns `Title`, `Section`, `Description`, `Lot`, and `Photo` and asking for each individual value to be placed in the pop up associated with the coordinates in our csv.
+3. This code is saying look in `data.csv`, then look at each `row`. As you move along each `row` find the value of any column called on by dot notation (`.`). We're calling on the columns `Title`, `Section`, `Description`, `Lot`, and `Photo` and asking for each individual value to be placed in the pop up associated with the coordinates in our csv.
 
 ## Publishing with GitHub Pages
 
@@ -217,7 +166,7 @@ Since this is a webpage, we want some explanatory text to help our visitors. Add
 ```
 # Project Title
 
-This is a map prototype I built in Digital Scholarship Foundations Fall 2025
+This is a map prototype I built in Digital Scholarship Foundations Spring 2026
 ```
 
 ### Step 4: Add iframe Code
