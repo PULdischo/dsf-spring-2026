@@ -13,7 +13,7 @@ Week 2: Working with Spatial Data: [Google Slides](https://docs.google.com/prese
 
 Week 3: Prototyping and Version Control: [Google Slides](https://docs.google.com/presentation/d/1LESeyxOeEzJXN9-zugUaeJOwNMEaiQlTcUtKBT2yjqA/edit?usp=sharing) or [PDF]([PDF](https://github.com/PULdischo/dsf-spring-2026/blob/main/content/slideshows/week-3-prototyping.pdf))
 
-Week 4: Code Templates and Customization:
+Week 4: Code Templates and Customization: [Google Slides](https://docs.google.com/presentation/d/1PrLIWBEzofbamRhUlPuvVq3-vEtIUQ1-BuU5f1FBz0A/edit?usp=sharing)
 
 ## Git & GitHub
 
