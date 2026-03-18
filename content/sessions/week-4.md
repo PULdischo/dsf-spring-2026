@@ -209,3 +209,7 @@ An iframe is an embedding element in HTML. It is used to add code from elsewhere
 6. Your website URL should now appear in the `About` section. Click the link to see your live website.
 
 #### Congrats! You now have a working website to show off your cool new map!
+
+## Please Complete a Survey
+
+Please complete a [survey](https://forms.gle/hQxX2GkDStgz2ssA6) about your experience in this workshop series. Your feedback will help us improve future iterations of the series!
