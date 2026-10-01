@@ -16,7 +16,7 @@ title: Digital Scholarship Foundations Spring 2026
 # choose from Bootstrap Icons in _includes/bootstrap-icons
 # find names on https://icons.getbootstrap.com/ (or look in "_includes/bootstrap-icons")
 # some options: code-slash file-code gear tools lightblub book bookmark-star
-title-icon: code-slash
+title-icon: pul-logo
 # description appears in sidebar footer
 description: "DSF Digital Mapping Curriculum"
 # keywords for meta tags used by search engines
